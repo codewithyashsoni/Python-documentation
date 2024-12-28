@@ -32,17 +32,19 @@ To view the documentation locally, follow these steps:
 
    ```bash
    git clone https://github.com/your-username/python-documentation.git
+    ```
 
 2. **Navigate to the project directory:**
 
     ```bash
     cd Python-documentation
+    ```
 
 3. **Open the <code>index.html</code> file in your web browser.**
 
 ## Project Structure
 
-    ```markdown
+    ```
     python-documentation/
     ├── index.html
     ├── styles.css
@@ -51,6 +53,7 @@ To view the documentation locally, follow these steps:
         └── images/
             ├── 1.png
             └── 2.png
+    ```
 
 ## Usage
 
@@ -71,6 +74,7 @@ Contributions are welcome! Please follow the steps:
 
     ```bash
     git checkout -b feature/YourFeature
+    ```
 
 3. **Make your changes**
 
@@ -78,11 +82,13 @@ Contributions are welcome! Please follow the steps:
 
     ```bash
     git commit -m "Add YourFeature"
+    ```
 
 5. **Push to the branch:**
 
     ```bash
     git push origin feature/YourFeature
+    ```
 
 6. **Open a Pull Request**
 
