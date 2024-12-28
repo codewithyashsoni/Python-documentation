@@ -9,6 +9,7 @@
     flex-direction: row;
     justify-content: start;
     background-color: #ececec;
+    min-width: 375px;
 }
   
 #navbar{
@@ -62,6 +63,7 @@ nav > ul {
     align-items: start;
     padding-inline-start: 0;
     margin-block: 0;
+    list-style: none;
 }
   
 nav > ul> a {
@@ -146,7 +148,7 @@ section > ul > a {
         height: 60%;
         position: absolute;
         top: 40%;
-        left: -1%;
+        left: 7%;
         padding: 10px;
     }
   
