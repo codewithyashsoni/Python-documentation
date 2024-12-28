@@ -14,6 +14,16 @@ This project is a technical documentation page for Python, designed to provide a
 - **Custom Styling:** Utilizes Google Fonts and custom CSS for an appealing look.
 - **Accessible Layout:** Structured HTML for better accessibility and SEO.
 
+## Demo
+
+[View the Live Demo](https://codewithyashsoni.github.io/Python-documentation/)
+
+## Screenshots
+
+<img src="https://github.com/codewithyashsoni/Python-documentation/blob/b51bd1a23b0bfb08bb89db4ed5645a51f1dcf91b/assets/images/1.png" alt="Desktop view of website">
+
+<img src="https://github.com/codewithyashsoni/Python-documentation/blob/b51bd1a23b0bfb08bb89db4ed5645a51f1dcf91b/assets/images/2.png" alt="Mobile view of website">
+
 ## Installation
 
 To view the documentation locally, follow these steps:
@@ -39,8 +49,8 @@ To view the documentation locally, follow these steps:
     ├── README.md
     └── assets/
         └── images/
-            ├── desktop-view.png
-            └── mobile-view.png
+            ├── 1.png
+            └── 2.png
 
 ## Usage
 
@@ -75,3 +85,7 @@ Contributions are welcome! Please follow the steps:
     git push origin feature/YourFeature
 
 6. **Open a Pull Request**
+
+## License
+
+THis project is licensed under the [MIT License](./LICENSE).
