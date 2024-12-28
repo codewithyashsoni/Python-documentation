@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+        <title>Python Documentation</title>
+    </head>
+
+    <body>
+        <div class="main">
+
+            <div class="left-container">
+        
+                <nav id="navbar">
+                    <header class="main-heading">Python Documentation</header>
+                    <ul>
+                        <a class="nav-link" href="#Overview"><li>Overview</li></a>
+                        <a class="nav-link" href="#Features"><li>Features</li></a>
+                        <a class="nav-link" href="#Key_Concepts"><li>Key Concepts</li></a>
+                        <a class="nav-link" href="#Common_Libraries"><li>Common Libraries</li></a>
+                        <a class="nav-link" href="#Best_Practices"><li>Best Practices</li></a>
+                        <a class="nav-link" href="#Resources"><li>Resources</li></a>
+                        <a class="nav-link" href="#Conclusion"><li>Conclusion</li></a>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="right-container">
+                <main id="main-doc">
+
+                    <section class="main-section" id="Overview">
+                        <header class="heading">Overview</header>
+                        <p>Python is a versatile, high-level programming language designed with simplicity and readability in mind. Created by Guido van Rossum in 1991, Python emphasizes developer productivity and code maintainability. It supports multiple programming paradigms, including:</p>
+                        <ul>
+                            <li><span class="bold">Procedural Programming</span></li>
+                            <li><span class="bold">Object-Oriented Programming (OOP)</span></li>
+                            <li><span class="bold">Functional Programming</span></li>
+                        </ul>
+                        <p>With its extensive standard library and strong community support, Python is ideal for web development, data analysis, machine learning, artificial intelligence, automation, and more.</p>
+                    </section>
+
+                    <section class="main-section" id="Features">
+                        <header class="heading">Features</header>
+                        <h3>a. Easy to Learn and Use</h3>
+                        <p>Python's simple syntax mimics natural language, making it beginner-friendly while remaining powerful for experts.</p>
+                        <h3>b. Interpreted Language</h3>
+                        <p>Python executes code line by line, providing immediate feedback, simplifying debugging, and enhancing development speed.</p>
+                        <h3>c. Dynamic Typing</h3>
+                        <p>Variables in Python don’t require explicit type declarations. Types are determined at runtime, allowing flexibility and rapid prototyping.</p>
+                        <h3>d. Extensive Standard Library</h3>
+                        <p>Python includes libraries for tasks such as file handling, web development, numerical computations, and more.</p>
+                        <h3>e. Cross-Platform Compatibility</h3>
+                        <p>Python code runs seamlessly across major operating systems like Windows, macOS, and Linux.</p>
+                    </section>
+
+                    <section class="main-section" id="Key_Concepts">
+                        <header class="heading">Key Concepts</header>
+
+                        <h3>a. Variables and Data Types</h3>
+                        <p><span class="bold">Data Types in Python:</span></p>
+                        <ul>
+                            <li><span class="bold">Numbers:</span> int, float, complex.</li>
+                            <li><span class="bold">Strings:</span> Text enclosed in quotes ("Python", 'Programming')</li>
+                            <li><span class="bold">Lists:</span> Ordered, mutable collections ([1, 2, 3])</li>
+                            <li><span class="bold">Dictionaries:</span> Key-value pairs ({"name": "Alice", "age": 25})</li>
+                            <li><span class="bold">Tuples:</span> Immutable ordered collections ((1, 2, 3))</li>
+                            <li><span class="bold">Sets:</span> Unordered collections with unique elements ({1, 2, 3})</li>
+                            <li><span class="bold">Booleans:</span> Logical values (True, False)</li>
+                        </ul>
+                        <p>Example:</p>
+                        <pre><code>
+                            name = "Alice"      # String
+                            age = 30            # Integer
+                            is_developer = True # Boolean
+                        </code></pre>
+
+                        <h3>b. Control Flow</h3>
+                        <p><span class="bold">Conditional Statements:</span></p>
+                        <pre><code>
+                            if condition:  
+                                # Execute block  
+                            elif another_condition:  
+                                # Execute another block  
+                            else:  
+                                # Execute default block
+                        </code></pre>
+                        <p><span class="bold">Loops:</span></p>
+                        <ul>
+                            <li><span class="bold">For Loops:</span> Iterate over sequences.</li>
+                            <pre><code>
+                                for item in [1, 2, 3]:  
+                                    print(item)
+                            </code></pre>
+
+                            <li><span class="bold">While Loops:</span> Execute as long as the condition is true.</li>
+                            <pre><code>
+                                count = 0  
+                                while count < 5:  
+                                    print(count)  
+                                    count += 1  
+                            </code></pre>
+                        </ul>
+
+                        <h3>c. Functions</h3>
+                        <p><span class="bold">Functions help in organizing and reusing code.</span></p>
+                        <pre><code>
+                            def greet(name):
+                                return f"Hello, {name}!"
+
+                            print(greet("Alice"))
+                        </code></pre>
+
+                        <h3>d. Object-Oriented Programming (OOP)</h3>
+                        <p><span class="bold">Creating a Class:</span></p>
+                        <pre><code>
+                            class Dog:
+                                def __init__(self, name):
+                                    self.name = name
+
+                                def bark(self):
+                                    return f"{self.name} says Woof!"
+
+                            my_dog = Dog("Buddy")
+                            print(my_dog.bark())
+                        </code></pre>
+                    </section>
+
+
+                    <section class="main-section" id="Common_Libraries">
+                        <header class="heading">Common Libraries</header>
+                        <h3>Data Analysis and Visualization</h3>
+                        <ul>
+                            <li><span class="bold">NumPy:</span> Fast numerical computations</li>
+                            <li><span class="bold">Pandas:</span> Data manipulation and analysis</li>
+                            <li><span class="bold">Matplotlib/Seaborn:</span> Visualization</li>
+                        </ul>
+
+                        <h3>Machine Learning and AI</h3>
+                        <ul>
+                            <li><span class="bold">TensorFlow and PyTorch:</span> Deep learning frameworks.</li>
+                            <li><span class="bold">Scikit-learn:</span> Machine learning models.</li>
+                        </ul>
+
+                        <h3>Web Development</h3>
+                        <ul>
+                            <li><span class="bold">Flask and Django:</span> Frameworks for building web applications.</li>
+                        </ul>
+
+                        <h3>HTTP Requests and APIs</h3>
+                        <ul>
+                            <li><span class="bold">Requests:</span> Simplifies HTTP requests</li>
+                        </ul>
+                    </section>
+
+                    <section class="main-section" id="Best_Practices">
+                        <header class="heading">Best Practices</header>
+                        <ol>
+                            <li><span class="bold">Follow PEP 8:</span> Python's official style guide.</li>
+                            <li><span class="bold">Use Virtual Environments:</span> Isolate dependencies with venv.</li>
+                            <li><span class="bold">Write Modular Code:</span> Break programs into smaller, reusable functions or classes.</li>
+                            <li><span class="bold">Document Code:</span> Use comments and docstrings for better readability.</li>
+                            <li><span class="bold">Test Code:</span> Employ tools like unittest or pytest to ensure code reliability.</li>
+                        </ol>
+                    </section>
+                    
+                    <section class="main-section" id="Resources">
+                        <header class="heading">Resources</header>
+                        <ul>
+                            <li><a href="https://docs.python.org/3/" target="_blank">Official Python Documentation</a></li>
+                            <li><a href="https://pypi.org/" target="_blank">Python Package Index (PyPi)</a></li>
+                            <li><a href="https://docs.python.org/3/tutorial/" target="_blank">Python Tutorials</a></li>
+                            <li><a href="https://www.python.org/community/" target="_blank">Community forums</a></li>
+                        </ul>
+                    </section>
+                    
+                    <section class="main-section" id="Conclusion">
+                        <header class="heading">Conclusion</header>
+                        <p>Python's versatility, simplicity, and powerful libraries make it a preferred choice for developers in many fields. Whether you're building websites, analyzing data, or exploring AI, Python provides the tools and community support to achieve your goals.</p>
+                    </section>
+                
+                </main>
+            
+            </div>
+        
+        </div>
+    
+    </body>
+    
+</html>
