@@ -30,6 +30,18 @@ To view the documentation locally, follow these steps:
 
 3. **Open the <code>index.html</code> file in your web browser.**
 
+## Project Structure
+
+    ```markdown
+    python-documentation/
+    ├── index.html
+    ├── styles.css
+    ├── README.md
+    └── assets/
+        └── images/
+            ├── desktop-view.png
+            └── mobile-view.png
+
 ## Usage
 
 This documentation can be used as a reference for learning Python or as a template for creating your own technical documentation projects. Feel free to customize the content and styles to fit your needs.
@@ -38,3 +50,28 @@ This documentation can be used as a reference for learning Python or as a templa
 
 - **HTML5:** Structure of the documentation.
 - **CSS3:** Styling and responsive design.
+
+## Contributing
+
+Contributions are welcome! Please follow the steps:
+
+1. **Fork the repository**
+
+2. **Create a new branch:**
+
+    ```bash
+    git checkout -b feature/YourFeature
+
+3. **Make your changes**
+
+4. **Commit your changes:**
+
+    ```bash
+    git commit -m "Add YourFeature"
+
+5. **Push to the branch:**
+
+    ```bash
+    git push origin feature/YourFeature
+
+6. **Open a Pull Request**
