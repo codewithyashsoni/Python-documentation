@@ -22,7 +22,9 @@ This project is a technical documentation page for Python, designed to provide a
 
 <img src="https://github.com/codewithyashsoni/Python-documentation/blob/b51bd1a23b0bfb08bb89db4ed5645a51f1dcf91b/assets/images/1.png" alt="Desktop view of website">
 
+<p align="center>
 <img src="https://github.com/codewithyashsoni/Python-documentation/blob/b51bd1a23b0bfb08bb89db4ed5645a51f1dcf91b/assets/images/2.png" alt="Mobile view of website">
+</p>
 
 ## Installation
 
